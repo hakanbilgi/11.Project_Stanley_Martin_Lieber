@@ -3,8 +3,18 @@
      padding: 0px;
  } */
 
+body{
+    background-color: black;
+    color: white;
+}
 
- .contanier{
+
+.contanier{
+border: 2px solid red;
+width: 80%;
+margin: auto;
+background-color: rgb(54, 52, 52);
+
 
 
 
@@ -13,7 +23,7 @@
 
 
 
-    
+
 }
 
 #img-div{
@@ -28,6 +38,18 @@
 
 }
 #info{
+
+
+
+}
+
+#footer{
+
+
+
+
+}
+#link{
 
 
 
