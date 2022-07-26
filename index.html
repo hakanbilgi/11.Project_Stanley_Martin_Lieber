@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="style.css" rel="stylesheet" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
     <title>Hakan'ın Web Sitesi</title>
   </head>
   <body>
     <div class="contanier">
-      <h1 class="heading" id="title">Martin Lieber</h1>
+      <h1 class="heading" id="title">Martin <span id="spam1">Lieber</span></h1>
       <div id="img-div">
-        <img src="stan-lee.jpg" alt="" width="350px" />
+        <img id="image" src="stan-lee.jpg" alt="resim" width="350px" />
 
         <p id="date">From 1922 to 2018</p>
       </div>
@@ -59,6 +64,12 @@
           Annual #1 (1963–66) (continues to Thor #126)
         </li>
       </ul>
+      <p id="footer">
+        Aread more about Martin Lieber on
+        <a href="https://en.wikipedia.org/wiki/Stan_Lee"
+          target="_blank"
+          id="link">Wikipedia</a>
+      </p>
     </div>
   </body>
 </html>
